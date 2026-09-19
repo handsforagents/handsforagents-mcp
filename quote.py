@@ -67,7 +67,7 @@ print(f"quote_id        {q['quote_id']}")
 print(f"answer due by   {q['response_due_at']}")
 print(f"answer goes to  {q['answer_channel']}")
 print(f"NDA if needed   {q['nda_url']}")
-print("\nKeep the access_token \u2014 it is the only way to read this quote back:")
+print("\nKeep the access_token — it is the only way to read this quote back:")
 print(q["access_token"])
 
 # 3. Later.
