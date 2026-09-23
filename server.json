@@ -3,7 +3,7 @@
   "name": "com.handsforagents/hands",
   "title": "Hands for Agents",
   "description": "Human-operated physical world in the EU: make, assemble, measure, verify, ship.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://handsforagents.com",
   "repository": {
     "url": "https://github.com/handsforagents/handsforagents-mcp",
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://handsforagents.com/mcp"
+      "url": "https://mcp.handsforagents.com/mcp"
     }
   ],
   "packages": [
@@ -20,7 +20,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "handsforagents-mcp",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "transport": {
         "type": "stdio"
       }
