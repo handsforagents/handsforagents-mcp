@@ -1,0 +1,48 @@
+{
+  "name": "handsforagents-mcp",
+  "version": "0.2.1",
+  "mcpName": "com.handsforagents/hands",
+  "description": "MCP server for Hands for Agents: a human in the EU makes, assembles, measures, verifies and ships physical things for your agent.",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "agent",
+    "agents",
+    "physical-world",
+    "manufacturing",
+    "3d-printing",
+    "human-in-the-loop",
+    "fulfilment",
+    "europe"
+  ],
+  "homepage": "https://handsforagents.com",
+  "bugs": {
+    "url": "https://github.com/handsforagents/handsforagents-mcp/issues",
+    "email": "security@handsforagents.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handsforagents/handsforagents-mcp.git"
+  },
+  "license": "MIT",
+  "author": "your engineering s.r.o. (https://handsforagents.com)",
+  "type": "module",
+  "bin": {
+    "handsforagents-mcp": "./index.js"
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
