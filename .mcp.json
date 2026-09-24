@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "handsforagents": {
+      "type": "http",
+      "url": "https://mcp.handsforagents.com/mcp"
+    }
+  }
+}
